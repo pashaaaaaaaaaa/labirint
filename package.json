@@ -1,0 +1,21 @@
+{
+  "name": "labirint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style":"node-sass -w ./scss -o ./css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pashaaaaaaaaaa/labirint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pashaaaaaaaaaa/labirint/issues"
+  },
+  "homepage": "https://github.com/pashaaaaaaaaaa/labirint#readme"
+}

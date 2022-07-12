@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+        <h1 class="container__heading">Оформление заказа</h1>
+        <section class="container__block">
+            <div class="container__block-wr">
+                <div class="container__header">
+                    <p class="container__text">Доставка</p>
+                    <div class="container__icon">
+                        <span>&#8249</span>
+                        <span>&#8250</span>
+                    </div>
+                </div>
+                <div class="container__wrapper">
+                    <div class="container__info">
+                        <div class="info__wrapper">
+                            <p class="info__date">Почта России, курьер — 24-26 сент.</p>
+                            <p class="info__adress">ул. Академика Королева, 73/3, Петропавловск- Камчатский, 683000</p>
+                        </div>
+                        <p class="info__price">+367 ₽</p>
+                    </div>
+                    <div class="container__info">
+                        <div class="info__wrapper">
+                            <p class="info__date">Лабиринт, курьер — 25 сент.</p>
+                            <p class="info__adress">Можайское шоссе, д. 21, кв. 50, Москва, 121471</p>
+                        </div>
+                        <p class="info__price">0 ₽</p>
+                    </div>
+                    <div class="container__info">
+                        <div class="info__wrapper">
+                            <p class="info__date">Лабиринт, курьер — 25 сент,<br>200 ₽</p>
+                            <p class="info__adress">ул. Алексея Алексеева, 194 Б, Москва, 123456</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="container__choice">Выбрать новое место и способ</a>
+                <div class="container__date">
+                    <div class="container__date__one">
+                        <p class="info__date">пн, 24 сен — ср, 26 сен</p>
+                        <p class="info__time">10:00–19:00</p>
+                    </div>
+                    <div class="container__date__two">
+                        <p class="info__date">чт, 27 сен — пт, 28 сен</p>
+                        <p class="info__time">10:00–19:00</p>
+                    </div>
+                    <div class="container__date__m">
+                        <p class="info__date">вт, 25 сен</p>
+                        <p class="info__time">10:00–19:00</p>
+                    </div>
+                    <div class="container__date__m">
+                        <p class="info__date">ср, 26 сен</p>
+                        <p class="info__time">10:00–19:00</p>
+                    </div>
+                    <a href="#">Другие дата и время</a>
+                </div>
+                <a class="hidden" href="#">Другие дата и время</a>
+                <div class="container__check">
+                    <label class="benefit__small">
+                        <input class="hidden-check" type="checkbox" name="a" value="true" checked>
+                        <span class="custom-check2"></span>Viber/СМС уведомления о статусе заказа
+                    </label>
+                    <label class="benefit__small">
+                        <input class="hidden-check" type="checkbox" name="a" value="true" checked required>
+                        <span class="custom-check2"></span>Оставить у двери (бесконтактная доставка)
+                    </label>
+                </div>
+                <div class="container__select">
+                    <p class="container__text">Получатель</p>
+                    <div class="container__select__wrapper">
+                        <div class="container__select-wr">
+                            <div class="container__select__one">
+                                <label for="" class="container__label">
+                                    Имя и фамилия
+                                    <select name="name" id="">
+                                        <option value="">Вольфганг Вениаминович Константинопольский</option>
+                                    </select>
+                                </label>
+                                <label for="" class="container__label-m">
+                                    Имя и фамилия, как в паспорте
+                                    <select name="name" id="">
+                                        <option value="">Константин Константинопольский</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <a class="user" href="">Новый получатель</a>
+                        </div>
+                        <div class="container__select-wr">
+                            <div class="container__select__one">
+                                <label for="" class="container__label">
+                                    Контактный телефон
+                                    <select name="phone" id="">
+                                        <option value="">+7 910 234-56-78</option>
+                                    </select>
+                                </label>
+                                <label for="" class="container__label-m">
+                                    Контактный телефон
+                                    <select name="phone" id="">
+                                        <option value="">+7 910 234-56-78</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <a href="">Новый телефон</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container__block-wr2">
+                <p class="container__text">В заказе 4 товара <span>(2 кг)</span></p>
+                <div class="container__cheque">
+                    <div class="container__cheque__list">
+                        <small>Цена товаров</small>
+                        <span>29 456 ₽</span>
+                    </div>  
+                    <div class="container__cheque__list">
+                        <small>Все скидки</small>
+                        <span>–7 732 ₽</span>
+                    </div>  
+                    <div class="container__cheque__list">
+                        <small>Скидка за предоплату</small>
+                        <span>–3%</span>
+                    </div>  
+                </div>
+                <div class="cheque__btn">
+                    <button>Закрыть подробности</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="footer">
+        <div class="footer__cont">
+            <button class="footer__btn">Оформить и оплатить</button>
+            <div class="footer__result">
+                <small>Итого к оплате на сайте:</small>
+                <span>21 072 ₽</span>
+            </div>
+            <div class="footer__result-m">
+                <div class="footer__result-wr">
+                    <small>Итого к оплате:</small>
+                    <span>21 072 ₽</span>
+                </div>
+                <a href="#" class="open"> Подробнее</a>
+            </div>
+        </div>
+    </div>
+    <!-- pop-up -->
+    <div class="custom-model-main">
+        <div class="custom-model-inner">        
+            <div class="container__block-wr2">
+                <p class="container__text">В заказе 4 товара <span>(2 кг)</span></p>
+                <div class="container__cheque">
+                    <div class="container__cheque__list">
+                        <small>Цена товаров</small>
+                        <span>29 456 ₽</span>
+                    </div>  
+                    <div class="container__cheque__list">
+                        <small>Все скидки</small>
+                        <span>–7 732 ₽</span>
+                    </div>  
+                    <div class="container__cheque__list">
+                        <small>Скидка за предоплату</small>
+                        <span>–3%</span>
+                    </div>  
+                </div>
+                <div class="cheque__btn">
+                    <button class="close-btn">Закрыть подробности</button>
+                </div>
+            </div>
+        </div>  
+        <div class="bg-overlay"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
