@@ -433,7 +433,9 @@
     border: none;
     margin-right: 15px;
 }
-
+.custom-model-main{
+    display: none;
+}
 @media (min-width:768px) and (max-width:1550px){
     .container__wrapper{
         display: flex;
@@ -444,11 +446,9 @@
     }
     .container__block-wr{
         padding: 30px;
-        border: 1px solid red;
     }
     .container__block-wr2{
         padding: 20px;
-        border: 1px solid red;
     }
     .container__info{
         display: flex;
@@ -1021,7 +1021,6 @@
         z-index: -1;
         overflow-x: hidden;
         overflow-y: auto;
-        background-color: red;
       }
       
       .model-open {
@@ -1051,7 +1050,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         box-sizing: border-box;
-        background: red;
       }
       .custom-model-wrap {
         display: block;
